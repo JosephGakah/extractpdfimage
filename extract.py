@@ -3,8 +3,8 @@ from pdf2image import convert_from_path
 from PIL import Image
 
 # Define the directory containing the PDF files and the output directory
-pdf_dir = "/home/gakah/Neurollect/Audread/Books/ebooks/ssd"
-output_dir = "/home/gakah/Neurollect/Audread/Books/images/ssd"
+pdf_dir = input("Enter pdfs directory:\n")
+output_dir = input("Enter Output Directory:\n")
 
 # Ensure the output directory exists
 os.makedirs(output_dir, exist_ok=True)

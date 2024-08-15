@@ -2,8 +2,8 @@ import os
 from PIL import Image, ImageChops
 
 # Define the directory containing the images and the output directory
-image_dir = "/home/gakah/Neurollect/Audread/Books/images/ssd"
-output_dir = "/home/gakah/Neurollect/Audread/Books/images/ssd/cropped"
+image_dir = input("Enter pdfs directory:\n")
+output_dir = input("\nEnter Output Directory:\n")
 
 # Ensure the output directory exists
 os.makedirs(output_dir, exist_ok=True)
