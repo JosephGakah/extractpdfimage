@@ -60,7 +60,7 @@ The `pdf2image` library requires `poppler` to be installed on your system.
    Execute the script using Python:
 
    ```bash
-   python batch_pdf_to_image.py
+   python extract.py
    ```
 
    The script will process each PDF in the specified directory, extract the first page, and save it as an image in the output directory.
