@@ -42,20 +42,8 @@ The `pdf2image` library requires `poppler` to be installed on your system.
 
    Save the script as `batch_pdf_to_image.py`.
 
-2. **Edit the Script:**
 
-   Open the script in a text editor and update the following paths:
-
-   - `pdf_dir`: Path to the folder containing your PDF files.
-   - `output_dir`: Path to the folder where you want to save the images.
-
-   Example:
-   ```python
-   pdf_dir = "/path/to/your/pdf/folder"
-   output_dir = "/path/to/output/directory"
-   ```
-
-3. **Run the Script:**
+2. **Run the Script:**
 
    Execute the script using Python:
 
@@ -63,7 +51,7 @@ The `pdf2image` library requires `poppler` to be installed on your system.
    python extract.py
    ```
 
-   The script will process each PDF in the specified directory, extract the first page, and save it as an image in the output directory.
+   Enter the path for the pdfs and out path. The script will process each PDF in the specified directory, extract the first page, and save it as an image in the output directory.
 
 ## Output
 
